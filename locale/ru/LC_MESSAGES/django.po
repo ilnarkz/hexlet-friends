@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-03 14:33+0300\n"
+"POT-Creation-Date: 2022-10-10 16:23+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -217,7 +217,7 @@ msgstr "Репозитории"
 #: templates/about.html:4 templates/about.html:5
 #: templates/components/footer.html:15
 msgid "About project"
-msgstr "О проекте   "
+msgstr "О проекте"
 
 #: templates/about.html:7
 msgid "Welcome to the open-source project Hexlet-friends!"
@@ -229,7 +229,10 @@ msgid ""
 "track of Hexlet's opensourced projects. Actively participate in the "
 "development of Hexlet projects, analyze your contributions, increase your "
 "rating and get achievements."
-msgstr "Hexlet-friends — это аналог GitHub в среде Хекслета. Сервис отслеживает оперсорсные проекты Хекслета. Активно участвуйте в разработке проектов Хекслета, анализируйте свой вклад, повышайте рейтинг и получайте 'ачивки'."
+msgstr ""
+"Hexlet-friends — это аналог GitHub в среде Хекслета. Сервис отслеживает "
+"оперсорсные проекты Хекслета. Активно участвуйте в разработке проектов "
+"Хекслета, анализируйте свой вклад, повышайте рейтинг и получайте 'ачивки'."
 
 #: templates/about.html:10
 msgid "Features"
