@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-18 21:26+0300\n"
+"POT-Creation-Date: 2022-10-25 12:49+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -58,11 +58,7 @@ msgstr "Неверное имя: "
 msgid "Uncheck those you wish to skip."
 msgstr "Снимите выбор тех, что нужно пропустить."
 
-<<<<<<< HEAD
-#: contributors/forms/forms.py:29 templates/contributor_details.html:35
-=======
-#: contributors/forms/forms.py templates/contributor_details.html
->>>>>>> main
+#: contributors/forms/forms.py:29 templates/contributor_details.html:185
 msgid "Filter by name"
 msgstr "Фильтр по имени"
 
@@ -70,7 +66,6 @@ msgstr "Фильтр по имени"
 msgid "Search"
 msgstr "Поиск"
 
-<<<<<<< HEAD
 #: contributors/models/base.py:12
 msgid "name"
 msgstr "Имя"
@@ -78,15 +73,6 @@ msgstr "Имя"
 #: contributors/models/base.py:16 contributors/models/contribution.py:66
 #: templates/components/tables/contributor_issues.html:17
 #: templates/components/tables/contributor_prs.html:17
-=======
-#: contributors/models/base.py
-msgid "name"
-msgstr "Имя"
-
-#: contributors/models/base.py contributors/models/contribution.py
-#: templates/components/tables/contributor_issues.html
-#: templates/components/tables/contributor_prs.html
->>>>>>> main
 msgid "URL"
 msgstr ""
 
@@ -124,7 +110,7 @@ msgstr "запрос на включение"
 msgid "comment"
 msgstr "комментарий"
 
-#: contributors/models/contribution.py:57 contributors/models/repository.py:42
+#: contributors/models/contribution.py:57 contributors/models/repository.py:53
 msgid "repository"
 msgstr "репозиторий"
 
@@ -156,11 +142,11 @@ msgstr "логин"
 msgid "avatar URL"
 msgstr "URL аватара"
 
-#: contributors/models/contributor.py:70 contributors/models/repository.py:35
+#: contributors/models/contributor.py:70 contributors/models/repository.py:46
 msgid "visible"
 msgstr "отображается"
 
-#: contributors/models/contributor.py:76 contributors/models/repository.py:20
+#: contributors/models/contributor.py:76 contributors/models/repository.py:21
 msgid "contributors"
 msgstr "контрибьюторы"
 
@@ -168,11 +154,7 @@ msgstr "контрибьюторы"
 msgid "title"
 msgstr "заголовок"
 
-<<<<<<< HEAD
 #: contributors/models/issue_info.py:18
-=======
-#: contributors/models/issue_info.py
->>>>>>> main
 msgid "state"
 msgstr ""
 
@@ -180,7 +162,7 @@ msgstr ""
 msgid "issue info"
 msgstr "доп. данные"
 
-#: contributors/models/organization.py:11 contributors/models/repository.py:25
+#: contributors/models/organization.py:11 contributors/models/repository.py:34
 msgid "organization"
 msgstr "организация"
 
@@ -192,7 +174,7 @@ msgstr "организации"
 msgid "description"
 msgstr "описание"
 
-#: contributors/models/project.py:14 contributors/models/repository.py:30
+#: contributors/models/project.py:14 contributors/models/repository.py:41
 msgid "project"
 msgstr "проект"
 
@@ -200,27 +182,19 @@ msgstr "проект"
 msgid "projects"
 msgstr "проекты"
 
-#: contributors/models/repository.py:34
+#: contributors/models/repository.py:27
+msgid "owner"
+msgstr ""
+
+#: contributors/models/repository.py:45
 msgid "full name"
 msgstr "полное имя"
 
-<<<<<<< HEAD
-#: contributors/models/repository.py:38
+#: contributors/models/repository.py:49
 msgid "labels"
 msgstr ""
 
-#: contributors/models/repository.py:43
-=======
-#: contributors/models/repository.py
-msgid "labels"
-msgstr "метки"
-
-#: contributors/models/repository.py
-msgid "owner"
-msgstr "владелец"
-
-#: contributors/models/repository.py
->>>>>>> main
+#: contributors/models/repository.py:54
 msgid "repositories"
 msgstr "репозитории"
 
@@ -228,20 +202,12 @@ msgstr "репозитории"
 msgid "Processing configuration"
 msgstr "Конфигурирование сбора данных"
 
-<<<<<<< HEAD
 #: contributors/views/organization.py:17 contributors/views/repositories.py:46
 #: templates/components/navbar.html:27
 #: templates/components/tables/repositories_list.html:27
 #: templates/contributors_for_month.html:8 templates/contributors_list.html:4
 #: templates/contributors_list.html:6 templates/contributors_list.html:8
-#: templates/projects_list.html:18 templates/repository_details.html:22
-=======
-#: contributors/views/organization.py contributors/views/repositories.py
-#: templates/components/navbar.html
-#: templates/components/tables/repositories_list.html
-#: templates/contributors_for_month.html templates/contributors_list.html
-#: templates/projects_list.html templates/repository_details.html
->>>>>>> main
+#: templates/projects_list.html:18 templates/repository_details.html:26
 msgid "Contributors"
 msgstr "Контрибьюторы"
 
@@ -252,7 +218,6 @@ msgstr "Контрибьюторы"
 msgid "Repositories"
 msgstr "Репозитории"
 
-<<<<<<< HEAD
 #: templates/about.html:4 templates/about.html:5
 #: templates/components/footer.html:15
 msgid "About project"
@@ -268,7 +233,10 @@ msgid ""
 "track of Hexlet's opensourced projects. Actively participate in the "
 "development of Hexlet projects, analyze your contributions, increase your "
 "rating and get achievements."
-msgstr "Hexlet-friends — это аналог GitHub в среде Хекслета. Сервис отслеживает оперсорсные проекты Хекслета. Активно участвуйте в разработке проектов Хекслета, анализируйте свой вклад, повышайте рейтинг и получайте 'ачивки'."
+msgstr ""
+"Hexlet-friends — это аналог GitHub в среде Хекслета. Сервис отслеживает "
+"оперсорсные проекты Хекслета. Активно участвуйте в разработке проектов "
+"Хекслета, анализируйте свой вклад, повышайте рейтинг и получайте 'ачивки'."
 
 #: templates/about.html:10
 msgid "Features"
@@ -307,9 +275,6 @@ msgid "Participate in the project (source code)"
 msgstr "Участвовать в проекте (исходный код)"
 
 #: templates/admin/configuration.html:15
-=======
-#: templates/admin/configuration.html
->>>>>>> main
 msgid "Get repositories"
 msgstr "Получить репозитории"
 
@@ -358,11 +323,7 @@ msgstr ""
 msgid "Unknown content"
 msgstr ""
 
-<<<<<<< HEAD
 #: templates/base.html:17
-=======
-#: templates/base.html
->>>>>>> main
 msgid ""
 "A service to track contributions from members of the Hexlet community to the "
 "Hexlet open-source projects on GitHub"
@@ -412,31 +373,24 @@ msgstr "За всё время"
 msgid "Open Issues"
 msgstr "Проблемы"
 
-<<<<<<< HEAD
 #: templates/components/navbar.html:41
 #: templates/components/tables/contributors_list.html:23
 #: templates/components/tables/recent_contributors.html:12
 #: templates/components/tables/repositories_list.html:21
-#: templates/contributor_details.html:24 templates/contributor_details.html:43
-#: templates/contributor_prs.html:4 templates/contributor_prs.html:8
-#: templates/projects_list.html:16 templates/pull_requests_list.html:4
-#: templates/pull_requests_list.html:6 templates/pull_requests_list.html:8
+#: templates/contributor_details.html:35 templates/contributor_details.html:36
+#: templates/contributor_details.html:40 templates/contributor_details.html:41
+#: templates/contributor_details.html:45 templates/contributor_details.html:46
+#: templates/contributor_details.html:50 templates/contributor_details.html:51
+#: templates/contributor_details.html:55 templates/contributor_details.html:56
+#: templates/contributor_details.html:172
+#: templates/contributor_details.html:193 templates/contributor_prs.html:4
+#: templates/contributor_prs.html:8 templates/projects_list.html:16
+#: templates/pull_requests_list.html:4 templates/pull_requests_list.html:6
+#: templates/pull_requests_list.html:8
 msgid "Pull requests"
 msgstr "Запросы на включение"
 
 #: templates/components/navbar.html:53
-=======
-#: templates/components/navbar.html
-#: templates/components/tables/contributors_list.html
-#: templates/components/tables/recent_contributors.html
-#: templates/components/tables/repositories_list.html
-#: templates/contributor_details.html templates/contributor_prs.html
-#: templates/projects_list.html templates/pull_requests_list.html
-msgid "Pull requests"
-msgstr "Запросы на включение"
-
-#: templates/components/navbar.html
->>>>>>> main
 msgid "Admin"
 msgstr "Администрирование"
 
@@ -448,11 +402,7 @@ msgstr "Моя статистика"
 msgid "Log out"
 msgstr "Выйти"
 
-<<<<<<< HEAD
 #: templates/components/navbar.html:65 templates/registration/login.html:17
-=======
-#: templates/components/navbar.html templates/registration/login.html
->>>>>>> main
 msgid "Log in"
 msgstr "Войти"
 
@@ -466,7 +416,6 @@ msgstr "Назад"
 msgid "Next"
 msgstr "Далее"
 
-<<<<<<< HEAD
 #: templates/components/tables/contributor_issues.html:9
 #: templates/components/tables/contributor_prs.html:9
 #: templates/components/tables/pull_requests_list.html:9
@@ -476,7 +425,7 @@ msgstr "Заголовок"
 #: templates/components/tables/contributor_issues.html:13
 #: templates/components/tables/contributor_prs.html:13
 #: templates/components/tables/pull_requests_list.html:13
-#: templates/contributor_details.html:39 templates/repository_details.html:6
+#: templates/contributor_details.html:189 templates/repository_details.html:6
 msgid "Repository"
 msgstr "Репозиторий"
 
@@ -503,44 +452,6 @@ msgstr "Ничего не найдено"
 
 #: templates/components/tables/contributors_list.html:8
 #: templates/components/tables/recent_contributors.html:7
-=======
-#: templates/components/tables/contributor_issues.html
-#: templates/components/tables/contributor_prs.html
-#: templates/components/tables/pull_requests_list.html
-msgid "Title"
-msgstr "Заголовок"
-
-#: templates/components/tables/contributor_issues.html
-#: templates/components/tables/contributor_prs.html
-#: templates/components/tables/pull_requests_list.html
-#: templates/contributor_details.html templates/repository_details.html
-msgid "Repository"
-msgstr "Репозиторий"
-
-#: templates/components/tables/contributor_issues.html
-#: templates/components/tables/contributor_prs.html
-#: templates/components/tables/pull_requests_list.html
-msgid "Creation date"
-msgstr "Дата создания"
-
-#: templates/components/tables/contributor_issues.html
-#: templates/components/tables/contributor_prs.html
-#: templates/components/tables/pull_requests_list.html
-msgid "Status"
-msgstr "Статус"
-
-#: templates/components/tables/contributor_issues.html
-#: templates/components/tables/contributor_prs.html
-#: templates/components/tables/contributors_list.html
-#: templates/components/tables/organizations_list.html
-#: templates/components/tables/pull_requests_list.html
-#: templates/components/tables/repositories_list.html
-msgid "Nothing found"
-msgstr "Ничего не найдено"
-
-#: templates/components/tables/contributors_list.html
-#: templates/components/tables/recent_contributors.html
->>>>>>> main
 msgid "Login"
 msgstr "Логин"
 
@@ -553,75 +464,68 @@ msgstr "Имя"
 
 #: templates/components/tables/contributors_list.html:14
 #: templates/components/tables/recent_contributors.html:9
-#: templates/contributor_details.html:40
+#: templates/contributor_details.html:62 templates/contributor_details.html:63
+#: templates/contributor_details.html:67 templates/contributor_details.html:68
+#: templates/contributor_details.html:72 templates/contributor_details.html:73
+#: templates/contributor_details.html:77 templates/contributor_details.html:78
+#: templates/contributor_details.html:82 templates/contributor_details.html:83
+#: templates/contributor_details.html:190
 msgid "Commits"
 msgstr "Коммиты"
 
 #: templates/components/tables/contributors_list.html:17
 #: templates/components/tables/recent_contributors.html:10
-#: templates/contributor_details.html:41
+#: templates/contributor_details.html:191
 msgid "Additions"
 msgstr "Добавления"
 
 #: templates/components/tables/contributors_list.html:20
 #: templates/components/tables/recent_contributors.html:11
-#: templates/contributor_details.html:42
+#: templates/contributor_details.html:192
 msgid "Deletions"
 msgstr "Удаления"
 
-<<<<<<< HEAD
 #: templates/components/tables/contributors_list.html:26
 #: templates/components/tables/recent_contributors.html:13
 #: templates/components/tables/repositories_list.html:24
-#: templates/contributor_details.html:26 templates/contributor_details.html:44
-#: templates/contributor_issues.html:4 templates/contributor_issues.html:8
-#: templates/projects_list.html:17
-=======
-#: templates/components/tables/contributors_list.html
-#: templates/components/tables/recent_contributors.html
-#: templates/components/tables/repositories_list.html
-#: templates/contributor_details.html templates/contributor_issues.html
-#: templates/projects_list.html
->>>>>>> main
+#: templates/contributor_details.html:89 templates/contributor_details.html:90
+#: templates/contributor_details.html:94 templates/contributor_details.html:95
+#: templates/contributor_details.html:99 templates/contributor_details.html:100
+#: templates/contributor_details.html:104
+#: templates/contributor_details.html:105
+#: templates/contributor_details.html:110
+#: templates/contributor_details.html:175
+#: templates/contributor_details.html:194 templates/contributor_issues.html:4
+#: templates/contributor_issues.html:8 templates/projects_list.html:17
 msgid "Issues"
 msgstr "Проблемы"
 
 #: templates/components/tables/contributors_list.html:29
 #: templates/components/tables/recent_contributors.html:14
-#: templates/contributor_details.html:45
+#: templates/contributor_details.html:116
+#: templates/contributor_details.html:117
+#: templates/contributor_details.html:121
+#: templates/contributor_details.html:122
+#: templates/contributor_details.html:126
+#: templates/contributor_details.html:127
+#: templates/contributor_details.html:131
+#: templates/contributor_details.html:132
+#: templates/contributor_details.html:136
+#: templates/contributor_details.html:137
+#: templates/contributor_details.html:195
 msgid "Comments"
 msgstr "Комментарии"
 
-<<<<<<< HEAD
 #: templates/components/tables/pull_requests_list.html:17
 msgid "Author"
 msgstr "Автор"
 
 #: templates/components/tables/repositories_list.html:12
-#: templates/repository_details.html:11
 msgid "Organization"
 msgstr "Организация"
 
 #: templates/components/tables/repositories_list.html:17
-#: templates/project_details.html:9 templates/repository_details.html:15
-=======
-#: templates/components/tables/pull_requests_list.html
-msgid "Author"
-msgstr "Автор"
-
-#: templates/components/tables/repositories_list.html
-#: templates/repository_details.html
-msgid "Organization"
-msgstr "Организация"
-
-#: templates/components/tables/repositories_list.html
-#: templates/project_details.html templates/repository_details.html
-msgid "Owner"
-msgstr "Владелец"
-
-#: templates/components/tables/repositories_list.html
-#: templates/project_details.html templates/repository_details.html
->>>>>>> main
+#: templates/project_details.html:9 templates/repository_details.html:19
 msgid "Project"
 msgstr "Проект"
 
@@ -633,57 +537,50 @@ msgstr "с"
 msgid "for the past month"
 msgstr "за прошедший месяц"
 
-<<<<<<< HEAD
 #: templates/contributor_details.html:8
 msgid "Contributor"
 msgstr "Участник"
 
-#: templates/contributor_details.html:31 templates/home.html:9
-=======
-#: templates/contributor_details.html
-msgid "Contributor"
-msgstr "Участник"
-
-#: templates/contributor_details.html
+#: templates/contributor_details.html:22
 msgid "Achievments"
-msgstr "Достижения"
+msgstr ""
 
-#: templates/contributor_details.html
+#: templates/contributor_details.html:27 templates/contributor_details.html:28
 msgid "Hexlet friend"
-msgstr "Друг Хекслета"
+msgstr ""
 
-#: templates/contributor_details.html
+#: templates/contributor_details.html:109
 #, fuzzy
 #| msgid "Issues"
 msgid "Issuess"
 msgstr "Проблемы"
 
-#: templates/contributor_details.html
+#: templates/contributor_details.html:143
+#: templates/contributor_details.html:144
+#: templates/contributor_details.html:148
+#: templates/contributor_details.html:149
+#: templates/contributor_details.html:153
+#: templates/contributor_details.html:154
+#: templates/contributor_details.html:158
+#: templates/contributor_details.html:159
+#: templates/contributor_details.html:163
+#: templates/contributor_details.html:164
 msgid "Additions and deletions"
-msgstr "Добавления и удаления"
+msgstr ""
 
-#: templates/contributor_details.html templates/home.html
->>>>>>> main
+#: templates/contributor_details.html:181 templates/home.html:9
 msgid "Past year activity"
 msgstr "Активность за год"
 
-#: templates/contributor_details.html:33
+#: templates/contributor_details.html:183
 msgid "All-time contributions"
 msgstr "Вклад за всё время"
 
-<<<<<<< HEAD
 #: templates/contributor_issues.html:6
 msgid "Issues by"
 msgstr "Issues пользователя"
 
 #: templates/contributor_prs.html:6
-=======
-#: templates/contributor_issues.html
-msgid "Issues by"
-msgstr "Issues пользователя"
-
-#: templates/contributor_prs.html
->>>>>>> main
 msgid "Pull requests by"
 msgstr "Пулл реквесты пользователя"
 
@@ -716,19 +613,11 @@ msgstr "по комментариям"
 msgid "New PRs and issues"
 msgstr "Новые PR и проблемы"
 
-<<<<<<< HEAD
 #: templates/organization_details.html:6
 msgid "Details for organization"
 msgstr "Детали организации"
 
 #: templates/project_details.html:19
-=======
-#: templates/organization_details.html
-msgid "Details for organization"
-msgstr "Детали организации"
-
-#: templates/project_details.html
->>>>>>> main
 msgid "Project related repositories"
 msgstr "Связанные с проектом репозитории"
 
@@ -737,12 +626,8 @@ msgctxt "logon"
 msgid "Login"
 msgstr "Вход"
 
-<<<<<<< HEAD
 #: templates/registration/registration.html:4
 #: templates/registration/registration.html:11
-=======
-#: templates/registration/registration.html
->>>>>>> main
 msgid "Registration"
 msgstr "Регистрация"
 
@@ -750,9 +635,12 @@ msgstr "Регистрация"
 msgid "Register"
 msgstr "Зарегистрироваться"
 
+#: templates/repository_details.html:11
+msgid "Owner"
+msgstr ""
+
 #~ msgid "Sort by"
 #~ msgstr "Сортировка по"
-<<<<<<< HEAD
 
 #~ msgid "Descending"
 #~ msgstr "По убыванию"
@@ -771,26 +659,3 @@ msgstr "Зарегистрироваться"
 
 #~ msgid "Log in with GitHub"
 #~ msgstr "Войти через GitHub"
-=======
-
-#~ msgid "Descending"
-#~ msgstr "По убыванию"
-
-#~ msgid "Apply"
-#~ msgstr "Применить"
-
-#~ msgid "Reset"
-#~ msgstr "Сбросить"
-
-#~ msgid "open"
-#~ msgstr "открыто"
-
-#~ msgid "Language"
-#~ msgstr "Язык"
-
-#~ msgid "Log in with GitHub"
-#~ msgstr "Войти через GitHub"
-
-#~ msgid "Recently active contributors"
-#~ msgstr "Недавно активные участники"
->>>>>>> main
